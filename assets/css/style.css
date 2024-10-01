@@ -47,6 +47,46 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+
+/* NO USE  section */
+
+/* 
+image */
+/* 
+.home__img {
+  order: 1;
+  justify-self: right;
+}
+
+
+.home__blob {
+  width: 200px;
+  fill: var(--first-color); */
+  /* fill: hsl(69, 69%, 61%); */
+/* } */
+/* .home__blob-img {
+  width: 150%;
+  height: 125%;
+  padding-left: 30px;
+}
+
+
+.home__blob {
+  width: 180px;
+}
+
+
+.home__blob {
+  width: 240px;
+}
+
+.home__blob {
+  width: 280px;
+} */
+
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
