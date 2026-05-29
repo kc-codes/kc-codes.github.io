@@ -2,7 +2,7 @@
 
 Welcome to the official source code of my personal portfolio website. This responsive, single-page application is custom-built to highlight my expertise in **Cybersecurity**, **Network Defenses**, **Automation/GenAI**, and **Software Engineering**. 
 
-🚀 **Live Link:** [https://kc-codes.github.io/Portfolio_Website/](https://kc-codes.github.io/Portfolio_Website/)
+🚀 **Live Link:** [https://kc-codes.github.io/](https://kc-codes.github.io/)
 
 ---
 
