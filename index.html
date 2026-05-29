@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Chaudhari | Cybersecurity Enthusiast & Senior Analyst</title>
+    <meta name="description"
+        content="Portfolio of Kunal Chaudhari, Senior Analyst at EY, Cybersecurity Enthusiast, and Data Analyst.">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon (Browser Tab Logo) -->
+    <link rel="icon" type="image/png" href="https://github.com/kc-codes.png">
+</head>
+
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#hero" class="logo">KC<span class="highlight">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li class="theme-toggle-wrapper">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+                <li><a href="#contact" class="btn-nav">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">👋 Hello, I'm</p>
+                <h1 class="name">Kunal Chaudhari</h1>
+                <h2 class="title">
+                    <span class="typing-text"></span><span class="cursor">&nbsp;</span>
+                </h2>
+                <p class="description">
+                    Dedicated to forging a long-term career in Cybersecurity. Currently working at EY on automation and
+                    GenAI, with a profound passion for penetration testing, building secure architectures, and
+                    mitigating critical vulnerabilities.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="https://drive.google.com/file/d/19QgKLE8SjZr3SkKjde8gi_QAOJCSfBPE/view?usp=sharing"
+                        target="_blank" class="btn btn-secondary">View Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/kunal23" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/kc-codes" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/u/K-kc/" target="_blank" aria-label="LeetCode"><i
+                            class="fas fa-code"></i></a>
+                    <a href="https://www.hackerrank.com/profile/kunal_23" target="_blank" aria-label="HackerRank"><i
+                            class="fab fa-hackerrank"></i></a>
+                    <a href="mailto:kunal.kc2003@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="profile-glow"></div>
+                    <img src="https://github.com/kc-codes.png" alt="Kunal Chaudhari Profile Picture"
+                        class="profile-pic">
+                    <div class="orbiting-nodes">
+                        <span class="node" style="--i:1"><i class="fas fa-shield-alt"></i></span>
+                        <span class="node" style="--i:2"><i class="fas fa-network-wired"></i></span>
+                        <span class="node" style="--i:3"><i class="fas fa-cloud"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content glass-card" style="padding: 2.5rem; border-radius: 20px;">
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; color: var(--text-primary);">
+                    🚀 Hello there! I'm a dynamic professional with a knack for leveraging technology to drive positive
+                    change. As a former Data Analyst Intern at IBM, I developed machine learning models to predict
+                    investment churn. However, my true passion lies deep within <strong>Cybersecurity</strong>.
+                </p>
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem; color: var(--text-secondary);">
+                    I am a Google Certified Cybersecurity Professional, constantly honing my skills to contribute
+                    effectively to the realm of digital security. I aim to apply my skills in data analysis, networking,
+                    and programming to fortify digital landscapes and tackle evolving threats.
+                </p>
+                <div class="highlight-list"
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+                    <div class="highlight-item"
+                        style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600;">
+                        <i class="fas fa-check-circle text-cyan"></i>
+                        <span>Senior Analyst at EY</span>
+                    </div>
+                    <div class="highlight-item"
+                        style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600;">
+                        <i class="fas fa-check-circle text-cyan"></i>
+                        <span>Google Certified CyberSec</span>
+                    </div>
+                    <div class="highlight-item"
+                        style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600;">
+                        <i class="fas fa-check-circle text-cyan"></i>
+                        <span>IBM SkillsBuild Alumni</span>
+                    </div>
+                    <div class="highlight-item"
+                        style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600;">
+                        <i class="fas fa-check-circle text-cyan"></i>
+                        <span>Open Source Contributor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item slide-in-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Senior Analyst</h3>
+                        <h4>EY</h4>
+                        <span class="date">Dec 2025 - Present</span>
+                        <p>Working in Technology Consulting on new age technologies, specializing in automation, GenAI,
+                            and cybersecurity solutions for enterprise clients.</p>
+                    </div>
+                </div>
+                <div class="timeline-item slide-in-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Junior Executive, MDR Team</h3>
+                        <h4>Anzen Technologies Private Limited</h4>
+                        <span class="date">Jul 2024 - Aug 2025</span>
+                        <ul>
+                            <li>Implemented log monitoring, resulting in a <strong>32% decrease in incident response
+                                    time</strong>.</li>
+                            <li>Managed OPNsense firewalls and fine-tuned Snort IDS/IPS rules, increasing network
+                                security by 19%.</li>
+                            <li>Integrated Fortinet FortiGate firewall with SIEM, enhancing threat detection accuracy by
+                                35%.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item slide-in-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Data Analyst Intern</h3>
+                        <h4>IBM</h4>
+                        <span class="date">Jun 2023 - Jul 2023</span>
+                        <ul>
+                            <li>Developed predictive models with an 85% accuracy rate on 500k+ transaction records to
+                                identify potential churn in investment portfolios.</li>
+                            <li>Collaborated on data modeling and visualization using Python, aligning with
+                                cybersecurity protocols.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards & Honours Section -->
+    <section id="awards" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Awards & Honours</h2>
+            <div class="awards-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div class="award-card glass-card fade-in">
+                    <i class="fas fa-trophy text-cyan" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+                    <h3>Winner - Tech-A-Thon 2.0</h3>
+                    <p>Won 1st place in Web/App Domain at MCC for developing an interactive, AI-driven wellness journal
+                        app with personalized recommendations and SOS features.</p>
+                </div>
+                <div class="award-card glass-card fade-in delay-1">
+                    <i class="fas fa-medal text-purple" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+                    <h3>Winner - VEGA 2024</h3>
+                    <p>Secured 2nd spot at Shah And Anchor Kutchhi Engineering College 24hr hackathon for building a
+                        comprehensive campus placement management platform.</p>
+                </div>
+                <div class="award-card glass-card fade-in delay-2">
+                    <i class="fas fa-award text-blue" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+                    <h3>2nd Runner-up - ACE Hacks 1.0</h3>
+                    <p>Developed 'EcoCommute', a community-based carpooling app with driver-passenger matching
+                        algorithms and real-time location tracking.</p>
+                </div>
+                <div class="award-card glass-card fade-in delay-3">
+                    <i class="fas fa-shield-alt text-cyan" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+                    <h3>Winner - Oscillations 2025</h3>
+                    <p>Track 4: Cyber Security & Blockchain. Recognized for "Next Generation SIEM Stack" at
+                        Vidyavardhini's College of Engineering and Technology.</p>
+                </div>
+                <div class="award-card glass-card fade-in delay-4">
+                    <i class="fas fa-star text-purple" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+                    <h3>Second Position - VNPS 2025</h3>
+                    <p>National Level Project Showcase. Honored for pushing the boundaries of modern cybersecurity and
+                        robust network defenses.</p>
+                </div>
+                <div class="award-card glass-card fade-in delay-5">
+                    <i class="fas fa-lightbulb text-blue" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+                    <h3>Top 5 Finalist - m-Indicator Hackathon</h3>
+                    <p>Techno Vanza 2024. Integrated real-time data analytics for optimized public transport and
+                        innovative road monitoring using demand prediction in AI/ML domain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Popular GitHub Projects</h2>
+            <div id="github-projects-grid" class="projects-grid">
+                <div class="loading-projects text-center w-100" style="padding: 2rem; color: var(--text-secondary);">
+                    Fetching latest projects from GitHub <i class="fas fa-spinner fa-spin"></i>
+                </div>
+            </div>
+            <div class="github-link-wrapper text-center" style="margin-top: 3rem; text-align: center;">
+                <a href="https://github.com/kc-codes" target="_blank" class="btn btn-secondary">View all on GitHub <i
+                        class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-container">
+                <div class="skill-category glass-card slide-in-bottom">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>Java</span><span>C/C++</span><span>JavaScript</span><span>SQL</span><span>Bash
+                            Scripting</span><span>TypeScript</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card slide-in-bottom delay-1">
+                    <h3><i class="fas fa-shield-alt"></i> Cybersecurity & Networking</h3>
+                    <div class="skill-tags">
+                        <span>SIEM</span><span>IDS/IPS</span><span>Firewalls</span><span>TCP/IP</span><span>VPN/IPsec</span><span>Network
+                            Debugging</span><span>Kali Linux</span><span>Penetration Testing</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card slide-in-bottom delay-2">
+                    <h3><i class="fas fa-cloud"></i> Cloud & Dev Tools</h3>
+                    <div class="skill-tags">
+                        <span>AWS</span><span>Microsoft
+                            Azure</span><span>GCP</span><span>Linux</span><span>Git/GitHub</span><span>Docker</span><span>VMware</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card slide-in-bottom delay-3">
+                    <h3><i class="fas fa-database"></i> Data & AI</h3>
+                    <div class="skill-tags">
+                        <span>Machine Learning</span><span>TensorFlow</span><span>Data
+                            Analytics</span><span>GenAI</span><span>Automation</span><span>MongoDB</span><span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card glass-card fade-in">
+                    <img src="assets/GoogleCyber.png" alt="Google Cybersecurity" class="cert-icon-img">
+                    <h3>Google Cybersecurity</h3>
+                    <p>Google</p>
+                </div>
+                <div class="cert-card glass-card fade-in delay-1">
+                    <img src="assets/CCNA.png" alt="CCNA: Introduction to Networks" class="cert-icon-img">
+                    <h3>CCNA: Introduction to Networks</h3>
+                    <p>Cisco</p>
+                </div>
+                <div class="cert-card glass-card fade-in delay-2">
+                    <img src="assets/ISC2.png" alt="ISC2 Candidate" class="cert-icon-img">
+                    <h3>ISC2 Candidate</h3>
+                    <p>ISC2</p>
+                </div>
+                <div class="cert-card glass-card fade-in delay-3">
+                    <img src="assets/Ai900.png" alt="Azure AI Fundamentals" class="cert-icon-img">
+                    <h3>Azure AI Fundamentals (AI-900)</h3>
+                    <p>Microsoft</p>
+                </div>
+                <div class="cert-card glass-card fade-in delay-4">
+                    <img src="assets/Az900.png" alt="Azure Fundamentals" class="cert-icon-img">
+                    <h3>Azure Fundamentals (AZ-900)</h3>
+                    <p>Microsoft</p>
+                </div>
+                <div class="cert-card glass-card fade-in delay-5">
+                    <img src="assets/dataanalysis.png" alt="Data Analysis with Python" class="cert-icon-img">
+                    <h3>Data Analysis with Python</h3>
+                    <p>IBM</p>
+                </div>
+                <div class="cert-card glass-card fade-in delay-6">
+                    <img src="assets/jrcybersecurity.png" alt="Junior Cybersecurity Analyst" class="cert-icon-img">
+                    <h3>Junior Cybersecurity Analyst</h3>
+                    <p>Cisco</p>
+                </div>
+            </div>
+            <div class="credly-link-wrapper text-center" style="margin-top: 3rem; text-align: center;">
+                <a href="https://www.credly.com/users/kunal23" target="_blank" class="btn btn-primary">View Verified
+                    Badges on Credly <i class="fas fa-external-link-alt" style="margin-left: 0.5rem;"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content glass-card fade-in">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm currently exploring new opportunities in cybersecurity, AI, and software engineering. Whether
+                        you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    <div class="contact-links">
+                        <a href="mailto:kunal.kc2003@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i> kunal.kc2003@gmail.com
+                        </a>
+                        <a href="tel:+919922549011" class="contact-link">
+                            <i class="fas fa-phone"></i> +91 9922549011
+                        </a>
+                        <a href="https://linkedin.com/in/kunal23" target="_blank" class="contact-link">
+                            <i class="fab fa-linkedin"></i> linkedin.com/in/kunal23
+                        </a>
+                        <a href="https://github.com/kc-codes" target="_blank" class="contact-link">
+                            <i class="fab fa-github"></i> github.com/kc-codes
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <!-- Web3Forms Access Key (Replace with your actual key, it is safe to be public!) -->
+                    <input type="hidden" name="access_key" value="8dfc67bd-b24c-4575-8b4e-72a1baaee5f0">
+
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" id="submitButton" class="btn btn-primary">Send Message</button>
+                    <div id="formResult" style="margin-top: 1rem; text-align: center; font-weight: 600; display: none;">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="logo">KC<span class="highlight">.</span></a>
+                <p>&copy; 2026 Kunal Chaudhari. Built with Passion & Security.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/kunal23" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/kc-codes" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/u/K-kc/" target="_blank"><i class="fas fa-code"></i></a>
+                    <a href="https://www.hackerrank.com/profile/kunal_23" target="_blank"><i
+                            class="fab fa-hackerrank"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
